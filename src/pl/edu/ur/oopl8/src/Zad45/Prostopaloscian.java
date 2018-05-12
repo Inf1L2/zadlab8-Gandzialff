@@ -46,6 +46,6 @@ public class Prostopaloscian extends FiguraPrzestrzenna {
     }
     @Override
     public String toString() {
-        return super.toString()+"\nProstopadloscian: a="+a+" b="+b+" c="+c+"\nPole powieszchni: "+obliczPole()+"Objetosc: "+obliczObjetosc();
+        return super.toString()+"\nProstopadloscian:\nDlugosc boków: a="+a+" b="+b+" c="+c+"\nPole: "+obliczPole()+"\nObjetosc: "+obliczObjetosc();
     }
 }

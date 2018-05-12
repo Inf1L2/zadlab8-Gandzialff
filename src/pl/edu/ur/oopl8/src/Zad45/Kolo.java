@@ -27,6 +27,6 @@ public class Kolo extends FiguraPlaska {
 
     @Override
     public String toString() {
-        return super.toString()+"\nKolo\nPromien: "+r+"\nPole: "+obliczPole()+"Obwod: "+obliczObwod();
+        return super.toString()+"\nKolo\nPromien: "+r+"\nPole: "+obliczPole()+"\nObwod: "+obliczObwod();
     }
 }

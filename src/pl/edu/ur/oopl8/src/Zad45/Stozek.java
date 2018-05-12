@@ -37,16 +37,16 @@ public class Stozek extends FiguraPrzestrzenna {
 
     @Override
     public double obliczObjetosc() {
-        return 0;
+        return (Math.PI*Math.pow(r,2)*h)/3;
     }
 
     @Override
     public double obliczPole() {
-        return 0;
+        return Math.PI*r*(r+l);
     }
 
     @Override
     public String toString() {
-        return super.toString();
+        return super.toString()+"\nStożek\nPromien podstawy: "+ r + "\nWysokosc: "+h+"\nTworząca: "+l+"\nPole: "+obliczPole()+"\nObjetosc: "+obliczObjetosc() ;
     }
 }

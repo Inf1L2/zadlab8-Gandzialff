@@ -27,6 +27,6 @@ public class Kula extends FiguraPrzestrzenna {
 
     @Override
     public String toString() {
-        return super.toString()+"\nKula\nPromien: "+r+"\nPole powierzchni: "+obliczPole()+"\nObjetosc: "+obliczObjetosc();
+        return super.toString()+"\nKula\nPromien: "+r+"\nPole: "+obliczPole()+"\nObjetosc: "+obliczObjetosc();
     }
 }

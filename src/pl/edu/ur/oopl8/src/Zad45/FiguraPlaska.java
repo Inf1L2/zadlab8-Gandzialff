@@ -6,7 +6,7 @@ public abstract class FiguraPlaska extends FiguraGeometryczna {
     @Override
     public String toString()
     {
-        return "Obliczanie parametrów figury płaskiej";
+        return "\nObliczanie parametrów figury płaskiej";
     }
 
 }

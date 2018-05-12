@@ -27,6 +27,6 @@ public class Kwadrat extends FiguraPlaska {
 
     @Override
     public String toString() {
-        return super.toString()+"Kwadrat\nDlugosc boku: "+a+"\nPola: "+obliczPole()+"Obwod: "+obliczPole();
+        return super.toString()+"\nKwadrat\nDlugosc boku: "+a+"\nPole: "+obliczPole()+"\nObwod: "+obliczPole();
     }
 }

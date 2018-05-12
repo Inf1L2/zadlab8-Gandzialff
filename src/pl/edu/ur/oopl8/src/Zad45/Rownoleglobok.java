@@ -47,6 +47,6 @@ public class Rownoleglobok extends FiguraPlaska {
 
     @Override
     public String toString() {
-        return super.toString()+"\nRownoleglobok\nDlugosc boku: a="+a+" b="+b+"\nWysokosc: "+h+"\nPole: "+obliczPole()+"\nObwod: "+obliczObwod();
+        return super.toString()+"\nRownoleglobok\nDlugosc boków: a="+a+" b="+b+"\nWysokosc: "+h+"\nPole: "+obliczPole()+"\nObwod: "+obliczObwod();
     }
 }

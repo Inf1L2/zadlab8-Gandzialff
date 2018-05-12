@@ -5,7 +5,7 @@ public abstract class FiguraPrzestrzenna extends FiguraGeometryczna {
 
     @Override
     public String toString(){
-        return "Obliczanie parametrow figury przestrzennej";
+        return "\nObliczanie parametrow figury przestrzennej";
     }
 
 }
